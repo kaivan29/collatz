@@ -34,7 +34,7 @@ def collatz_eval (n) :
     return the value that produces the max cycle length of the range [1, n]
     """
     # <your code>
-    max = 1
+ """   max = 1
     max_sum = 1
     for i in range(1,n+1):
         sum = 0
@@ -51,7 +51,7 @@ def collatz_eval (n) :
         if sum >= max_sum:
             max_sum = sum
             max = i
-
+"""
     n = max 
     assert n > 0
     m = n
