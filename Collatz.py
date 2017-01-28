@@ -51,8 +51,9 @@ def collatz_eval (n) :
         if sum >= max_sum:
             max_sum = sum
             max = i
-"""
+
     n = max 
+"""
     assert n > 0
     m = n
     assert m > 0
