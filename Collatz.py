@@ -13,6 +13,7 @@
 # ------------
 # collatz_read
 # ------------
+optimize = [0]*5000001
 
 def collatz_read (r) :
     """
@@ -34,27 +35,36 @@ def collatz_eval (n) :
     return the value that produces the max cycle length of the range [1, n]
     """
     # <your code>
-    """
+    global optimize
     max = 1
     max_sum = 1
     for i in range(1,n+1):
-        sum = 0
+        sum = 1
         j = i
             
         while j != 1:
+            #caching
+            if(j < 5000001 and optimize[j]!=0):
+                sum = sum + optimize[j]-1
+                break
+            
+            #if not in the cache lets calculate the length
             if j%2 == 0:
-                j = j/2
+                j = int (j/2)
                 sum+=1
             else:
-                j = 3*j + 1
+                j = int(3*j + 1)
                 sum+=1
             
         if sum >= max_sum:
             max_sum = sum
             max = i
+            
+        if j < 5000001:
+            optimize[j] = sum
 
     n = max 
-    """
+
     assert n > 0
     m = n
     assert m > 0
