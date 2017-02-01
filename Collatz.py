@@ -50,25 +50,21 @@ def collatz_eval (n) :
             
             #if not in the cache lets calculate the length
             if j%2 == 0:
-                j = int (j/2)
+                j = int (j >> 1)
                 sum+=1
             else:
-                j = int(3*j + 1)
-                sum+=1
+                j = int((j >> 1) + 1 + j)
+                sum+=2
             
         if sum >= max_sum:
             max_sum = sum
             max = i
             
-        if j < 5000001:
-            optimize[j] = sum
+        if i < 5000001:
+            optimize[i] = sum
 
-    n = max 
-
-    assert n > 0
-    m = n
-    assert m > 0
-    return m
+    assert max > 0
+    return max
 
 
 # -------------

@@ -1,0 +1,41 @@
+commit 19d5571395a92b2c3b113dec159fc256dd759222
+Author: Kaivan Shah <kaivan29@utexas.edu>
+Date:   Tue Jan 31 17:32:07 2017 -0600
+
+    created a dev branch close #4, ran and fixed the unit and acceptance tests close #6 and close #7
+
+commit e3aeb39ddcfd05480465cb7d571535aac889e402
+Author: Kaivan Shah <kaivan29@tamu.edu>
+Date:   Fri Jan 27 20:26:54 2017 -0600
+
+    some changes to collatz.py to make travis build successful
+
+commit 14593388836bac13abed9c89e8f4be77bb02e181
+Author: Kaivan Shah <kaivan29@tamu.edu>
+Date:   Fri Jan 27 20:18:33 2017 -0600
+
+    some changes to collatz.py to make travis build successful
+
+commit d2e207d0f94178455529177ce3747deceaad137e
+Author: Kaivan Shah <kaivan29@tamu.edu>
+Date:   Fri Jan 27 20:16:55 2017 -0600
+
+    some changes to collatz.py to make travis build successful
+
+commit 2f4cf192410b229badc01fd88c81543888e95a60
+Author: Kaivan Shah <kaivan29@tamu.edu>
+Date:   Fri Jan 27 20:12:40 2017 -0600
+
+    adding .travis.yml
+
+commit 821a123ee3b8a976962f512dfd984c90aa87e665
+Author: Kaivan Shah <kaivan29@tamu.edu>
+Date:   Fri Jan 27 19:59:10 2017 -0600
+
+    This closes #1 and closes #2
+
+commit 0e6e5175d267fd128d8d3d0b6c5445b360311e58
+Author: Kaivan Shah <kaivan29@tamu.edu>
+Date:   Fri Jan 27 19:16:36 2017 -0600
+
+    Initial commit
