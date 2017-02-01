@@ -1,3 +1,15 @@
+commit 25d6228df3786ac2ab20ecfd384700af29b62176
+Author: Kaivan Shah <kaivan29@utexas.edu>
+Date:   Wed Feb 1 16:11:46 2017 -0600
+
+    This closes #3, closes #11, closes #12, closes #13, closes #14, closes #15
+
+commit 623cb4c7b5c3022c5a36780eed8b3b9dd85dafd6
+Author: Kaivan Shah <kaivan29@utexas.edu>
+Date:   Wed Feb 1 16:09:33 2017 -0600
+
+    This closes #4, closes #5, closes #6, closes #8, closes #9
+
 commit f5e444390ef9158045ffd535482305225ec408f1
 Author: Kaivan Shah <kaivan29@utexas.edu>
 Date:   Tue Jan 31 22:30:12 2017 -0600
